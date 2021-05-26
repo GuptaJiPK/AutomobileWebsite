@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.a{
+	background: #0000009c;
+
+}
+.mobilelogo{
+	display: none;
+}
+.weblogo{
+	width: 65px;
+	font-family: 'Lato', sans-serif;
+}
+.name{
+	font-size: 25px;
+    float: right;
+    margin-top: 20px;
+    color:#fff;
+    font-weight: 700;
+}
+#a, .carousel-inner, .carousel-item{
+	height: 700px;
+}
+.carousel-inner .carousel-item img{
+	height: 100%;
+	width: 100%;
+}
+.shop{
+	background: #ff1616;
+    color: #fff;
+    position: relative;
+    left: 1100px;
+    bottom: 135px;
+}
+.sub_banner{
+	height: 209px;
+}
+.more{
+	background:#ff1616;
+	
+}
+.card{
+	border: 0.5px solid grey;
+	margin-top: 20px;
+}
+.card-body{
+	background: #252525;
+}
+.viewmore{
+	background:#ff1616;
+	float: right;
+    margin-top: -66px;
+}
+.clearance{
+	width: 100%;
+	height: 300px;
+	background: url("../image/home/clearance_banner.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.clearance_text{
+	padding-top: 100px;
+}
+.news{
+	height: 300px;
+}
+.news_text{
+	/*padding-top: 100px;*/
+}
+.icon{
+	font-size: 50px!important;
+	color:#ff1616;
+}
+.footer a{
+	text-decoration:none;
+	color:grey;
+}
+.footer a:hover{
+	color:#ff1616;
+}
+.card-img-top{
+	height: 300px;
+}
+@media (max-width: 600px){
+	.a{
+		background:#000;
+	}
+	.name{
+		display: block;
+		font-size: 25px;
+    	float: left;
+    	margin-top: -21%;
+    	color: #fff;
+    	font-weight: 700;
+    	padding-left: 81px;
+
+	}
+	#a, .carousel-inner, .carousel-item{
+	height: 400px!important;
+	}
+	.d-block{
+		display: block!important;
+	}
+	.w-100{
+		width: 100%!important;
+	}
+	.weblogo{
+			display: none;
+
+		}
+	.mobilelogo{
+				display: block;
+				width: 80px;
+				
+			}
+	.navbar-toggler{
+		/*margin-top: -55px;*/
+	}
+	.carousel{
+			margin-top:30%!important;
+	}
+	.shop{
+			background: #ff1616;
+    		color: #fff;
+    		position: relative;
+    		left: 228px!important;
+    		bottom: 90px!important;
+		}
+	.viewmore{
+			background:#ff1616;
+			float: none!important;
+    		margin-top: 0px!important;
+	}
+	.clearance_text{
+		padding-top: 50px!important;
+	}
+	.news_text{
+		/*padding-top: 50px!important;*/
+	}
+}
