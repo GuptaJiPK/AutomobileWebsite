@@ -8,6 +8,9 @@
 	background: #0000009c;
 
 }
+.active{
+	color: #ff1616!important;
+}
 .mobilelogo{
 	display: none;
 }
@@ -302,5 +305,24 @@
 	.person{
 		padding: 0 20px;
 		margin-top: 20px;
+	}
+}
+
+/**********************************************Contact Page Styling**********************************/
+.contact{
+	background: url("../image/contact/backbanner.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	width: 100%;
+	padding:80px 0;
+}
+.terms a{
+	text-decoration: none;
+	color: #ff1616;
+}
+@media(max-width: 600px){
+	.cycle{
+		display: none!important;
 	}
 }
